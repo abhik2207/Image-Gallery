@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card-swiper">
+        <div class="card-groups">
+            <div class="card-group" data-index="0" data-status="active">
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+            </div>
+            <div class="card-group" data-index="1" data-status="unknown">
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+            </div>
+            <div class="card-group" data-index="2" data-status="unknown">
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+                <div class="card little-card"></div>
+                <div class="card big-card"></div>
+            </div>
+        </div>
+        <div class="card-swiper-buttons">
+            <button id="prev" onclick="handlePrevClick()">
+                <i class="ri-arrow-left-fill"></i>
+            </button>
+            <button id="next" onclick="handleNextClick()">
+                <i class="ri-arrow-right-fill"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
